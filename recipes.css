@@ -1,0 +1,151 @@
+#links {
+    color: rgb(255, 153, 0);
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.recipeOutput {
+    text-align: center;
+
+}
+
+div {
+    padding: auto;
+}
+.col-4 {
+    border: .5px solid rgba(0, 0, 0, 0.301);
+    margin: 0 auto;
+}
+#search {
+    background: transparent;
+    border: none;
+    border-bottom: 2px dashed rgb(255, 169, 99);
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 167, 51, 0.473);
+}
+
+p {
+    padding-bottom: 20px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 50%;
+}
+
+#submit {
+    -moz-box-shadow: 0px 10px 14px -7px #3e7327;
+    -webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+    box-shadow: 0px 10px 14px -7px #3e7327;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352));
+    background: -moz-linear-gradient(top, #77b55a 5%, #72b352 100%);
+    background: -webkit-linear-gradient(top, #77b55a 5%, #72b352 100%);
+    background: -o-linear-gradient(top, #77b55a 5%, #72b352 100%);
+    background: -ms-linear-gradient(top, #77b55a 5%, #72b352 100%);
+    background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352', GradientType=0);
+    background-color: #77b55a;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid #4b8f29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 13px 19px;
+    text-decoration: none;
+    text-align: center;
+}
+
+img {
+    object-fit: cover;
+    display:block;
+    margin:auto;
+    
+}
+
+
+#searchLabel {
+    text-align: center;
+    font-size: 20px;
+    color: orange;
+    margin-top:4rem;
+    margin-bottom:2rem;
+}
+
+#pageHeader {
+    margin-top: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+h2 {
+    text-align: center;
+    height: 50px;
+}
+
+#otherIng {
+    padding: auto;
+    background-color:rgba(255, 255, 255, 0.555);
+    color:black;
+    max-height: 200px;
+    min-width: 100px;
+    text-justify: auto;
+    overflow-y: scroll;
+}
+
+#healthLabels{
+    padding-top: 1rem;
+    text-align: center;
+    color: rgb(170, 120, 26);
+}
+
+div {
+    max-height:800px;
+}
+
+#imges {
+    border:20px inset #42ce2e;
+}
+
+body {
+    background-color: #f1f1f1 !important;
+}
+
+input {
+    background: transparent;
+    text-align: center;
+    font-size: 5rem;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(0, 167, 50);
+}
